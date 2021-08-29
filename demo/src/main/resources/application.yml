@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/dev01?currentSchema=dev01
+    username: dev01
+    password: dev01234
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
+server:
+  context-path: /proper
+  port: 8081
+doma:
+  dialect: postgres
